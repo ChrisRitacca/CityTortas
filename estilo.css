@@ -1,0 +1,201 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.mi-button {
+    background-color: red;
+}
+
+.custom-navbar {
+    width: 100%;
+    justify-content: space-around;
+}
+
+.logocustom {
+
+    max-height: 50px;
+    max-width: 50px;
+}
+
+
+.contlogo {
+    background-color: #E8D0F2;
+    margin: auto;
+}
+
+.logo {
+    max-height: 150px;
+    max-width: 150px;
+
+
+}
+
+.parallax-window {
+    min-height: 600px;
+    background: transparent;
+}
+
+.padding0 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.rosaclaro {
+    background-color: #F2D5DD;
+}
+
+.violetita {
+    width: 100%;
+    background-color: #E8D0F2;
+}
+
+#copyright {
+    width: 16px;
+    height: 16px;
+}
+
+.imgfooter {
+    width: 50px;
+    height: 50px;
+}
+
+.imghighlights {
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.bk-transparent {
+    background-color: transparent;
+    border: 0;
+}
+
+.logocontacto {
+    width: 12rem;
+    height: 14rem;
+    margin: auto;
+}
+
+
+.altotextarea {
+    min-height: 100px;
+}
+
+.bannerheight {
+    height: 50vh;
+}
+
+.img-responsive {
+    max-width: 100%;
+}
+
+.imagen {
+    width: 20%;
+    margin: 0;
+}
+
+.imagenes {
+
+    max-height: 2300px;
+    overflow: hidden;
+    background-color: #E8D0F2;
+
+}
+
+
+
+.modalimg {
+    max-height: 14em;
+}
+
+
+.ingredientes {
+    list-style-type: disc;
+}
+
+.receta {
+    list-style-type: circle;
+}
+
+
+.titulorecetas {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0.8rem;
+    font-weight: bold;
+}
+
+
+.modal-content {
+    background-color: #F2D5DD;
+}
+
+.fondotext {
+    background-image: url(imagenes/textura.jpeg);
+    background-size: cover;
+
+}
+
+.ir-a-receta {
+    font-family: 'Pacifico', cursive;
+    color: black;
+    font-size: 1.5em;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.fondoparareceta {
+    padding: 1rem;
+    background: rgba(255, 255, 255, .5);
+    min-width: 88px;
+
+}
+
+.lineabca {
+    background-color: white;
+}
+
+.zoomin {
+    position: relative;
+    overflow: hidden;
+}
+
+.zoomin:hover img {
+    transform: scale(1.4);
+
+}
+
+.zoomin img {
+    transition: all 0.5s;
+    transition-timing-function: ease-out;
+}
+
+.proximamente {
+    font-family: 'Pacifico', cursive;
+    color: black;
+    font-size: 1.5em;
+    padding: 1rem;
+}
+
+img-thumbnail {
+    border: none;
+}
+
+.mycard {
+    background-color: bisque;
+}
+
+
+.centrar{
+    text-align: center;
+}
+/* ************************** NO LABURAR ABAJO DE ESTO ******************************************** */
+
+@media (max-width: 768px) {
+    .textcenter-xs {
+        text-align: center;
+    }
+
+}
